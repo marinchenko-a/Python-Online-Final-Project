@@ -1,1 +1,1 @@
-this is my Final project for EPAM python course Spring 2022
+this is my Final project for EPAM Python course Spring 2022
