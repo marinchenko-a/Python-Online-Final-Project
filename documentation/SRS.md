@@ -116,7 +116,7 @@ Pic 1.3 Edit Site.
 - If error occurs, then error message displays; 
 - If site record is successfully deleted, then list of sites without deleted record is displaying.
 
-![delete site](img/delete_site.png)
+![delete site](img/delete_site.png)  
 Pic 1.4 Delete site dialog.
 
 ***Cancel operation scenario:***  
@@ -135,7 +135,7 @@ This mode is designed to view the list of Maintenance Visits. It is possible to 
 - User clicks on “Maintenance Visits” button;
 - Application displays list of Maintenance Visits.
 
-![view of maintenance visits list](img/visits.png)
+![view of maintenance visits list](img/visits.png)  
 Pic. 2.1 View of Maintenance Visits list
 
 The list has following columns:  
@@ -167,7 +167,7 @@ The list has following columns:
 - Data don’t save in database, then list of Maintenance Visits records is displaying to user;
 - If the user selects the menu item "Sites”, ” Maintenance Visits” or "Maintenance Teams", the data will not be saved to the database and the corresponding view of data will be opened.
 
-![add visit](img/add_visit.png)
+![add visit](img/add_visit.png)  
 Pic 2.2 Add Maintenance Visit.
 
 When adding a Maintenance Visit, the following details are entered:  
@@ -198,7 +198,7 @@ Constraints for data validation:
 - Data don’t save in database, then list of Maintenance Visits records is displaying to user;
 - If the user selects the menu item "Sites”, ”Maintenance Visits” or "Maintenance Teams", the data will not be saved to the database and the corresponding view of data will be opened.
 
-![edit visit](img/add_visit.png)
+![edit visit](img/add_visit.png)  
 Pic 2.3 Edit Maintenance Visit.
 
 When editing a Maintenance Visit, the following details are entered:  
@@ -221,7 +221,7 @@ Constraints for data validation:
 - If error occurs, then error message displays; 
 - If Maintenance Visit record is successfully deleted, then list of Maintenance Visits without deleted record is displaying.
 
-![delete visit](img/delete_visit.png)
+![delete visit](img/delete_visit.png)  
 Pic 2.4 Delete Maintenance Visit dialog.
 
 ***Cancel operation scenario:***  
@@ -240,7 +240,7 @@ This mode is designed to view the list of Maintenance Teams.
 - User clicks on “Maintenance Teams” button;
 - Application displays list of Maintenance Teams.
  
-![view of maintenance teams list](img/teams.png)
+![view of maintenance teams list](img/teams.png)  
 Pic. 3.1 View of Maintenance Teams list
 
 The list has following columns:  
@@ -267,7 +267,7 @@ The list has following columns:
 - Data don’t save in database, then list of Maintenance Teams records is displaying to user;
 - If the user selects the menu item "Sites”, ” Maintenance Visits” or "Maintenance Teams", the data will not be saved to the database and the corresponding view of data will be opened.
  
-![add team](img/add_team)
+![add team](img/add_team)  
 Pic 3.2 Add Maintenance Team.
 
 When adding a Maintenance Team, the following details are entered:
@@ -300,7 +300,7 @@ Constraints for data validation:
 - Data don’t save in database, then list of Maintenance Teams records is displaying to user;
 - If the user selects the menu item "Sites”, ”Maintenance Visits” or "Maintenance Teams", the data will not be saved to the database and the corresponding view of data will be opened.
  
-![edit team](img/add_team.png)
+![edit team](img/add_team.png)  
 Pic 3.3 Edit Maintenance Team.
 
 When adding a Maintenance Team, the following details are entered:
@@ -325,7 +325,7 @@ Constraints for data validation:
 - If error occurs, then error message displays; 
 - If Maintenance Team record is successfully deleted, then list of Maintenance Teams without deleted record is displaying.
  
-![delete team](img/delete_team.png)
+![delete team](img/delete_team.png)  
 Pic 3.4 Delete Maintenance Team dialog.
 
 ***Cancel operation scenario:***  
