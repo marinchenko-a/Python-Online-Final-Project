@@ -267,7 +267,7 @@ The list has following columns:
 - Data don’t save in database, then list of Maintenance Teams records is displaying to user;
 - If the user selects the menu item "Sites”, ” Maintenance Visits” or "Maintenance Teams", the data will not be saved to the database and the corresponding view of data will be opened.
  
-![add team](img/add_team)  
+![add team](img/add_team.png)  
 Pic 3.2 Add Maintenance Team.
 
 When adding a Maintenance Team, the following details are entered:
