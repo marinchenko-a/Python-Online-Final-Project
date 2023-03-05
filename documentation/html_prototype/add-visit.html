@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sites</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<p>
+	<span class=" folder">
+		<a href="sites.html">Sites</a>
+	</span>
+
+	<span class="aktive folder">
+		<a href="visits.html"> Maintenance Visits</a>
+	</span>
+
+	<span class="folder">
+		<a href="teams.html"> Maintenance Teams</a>
+	</span>
+
+	<span class="cancel-button">
+		<a style="color:white;" href="visits.html">Cansel</a>
+	</span>
+
+	<span class="add-button">
+		<a style="color:white;" href="visits.html">Save</a>
+	</span>
+</p>
+
+<form style="margin: 20px; font-size: 20px;">
+  <br>
+  <label for="visit-date"> Date of visit </label>
+  <input class="add-page-input" type="text" id="visit-date" name="visit-date" placeholder="02.02.2023" value="02.02.2023" onfocus="(this.type='date')"><br>
+
+  <label for="task-order">Task order</label>
+  <select class="add-page-input" id="task-order" name="task-order">
+    <option value="111">111</option>
+    <option value="123">123</option>
+    <option value="222">222</option>
+    <option value="333">333</option>
+  </select><br>
+  
+  <label for="team-number"> Team #</label>
+  <select class="add-page-input" id="team-number" name="team-number">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+  </select><br>
+
+  <label for="deliverable"> Deliverable </label>
+  <input class="add-page-input" type="text" id="deliverable" name="deliverable" value="Del 3.3">
+</form> 
+</body>

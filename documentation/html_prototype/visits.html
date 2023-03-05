@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Visits</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<p>
+	<span class="folder">
+		<a href="sites.html">Sites</a>
+	</span>
+
+	<span class="aktive folder">
+		<a href="visits.html"> Maintenance Visits</a>
+	</span>
+
+	<span class="folder">
+		<a href="teams.html"> Maintenance Teams</a>
+	</span>
+
+	<span class="add-button">
+		<a style="color:white;" href="add-visit.html">Add Visit</a>
+	</span>
+
+</p>
+
+<form style="margin: 20px; font-size: 20px;">
+   Visit date<br>
+  <label for="from">from</label>
+  <input style="width: 100px;" type="text" id="from" name="from" placeholder="20.01.2023" value="20.01.2023" onfocus="(this.type='date')">
+  <label for="to">to</label>
+  <input style="width: 100px;" type="text" id="to" name="to" placeholder="20.01.2023" value="20.01.2023" onfocus="(this.type='date')">
+  <input style="font-size: 20px;margin-left: 40px;" type="submit" value="Search">
+</form> 
+
+<table style="border:1px solid white;width:90%">
+  <tr>
+    <th> Date of visit </th>
+    <th> Head of Team</th>
+    <th> Site name </th>
+    <th> Task order </th>
+    <th> Deliverable</th>
+     
+  </tr>
+  <tr>
+    <td>16.02.2023</td>
+    <td>Palchuck Sergii</td>
+    <td>Dnipro cancer clinic</td>
+    <td>TO111</td>
+    <td>Del 3.4</td>
+    <td class="td-button">
+      <a title="Edit record" href="add-visit.html"><img src="img/edit.png"></a>
+    </td>
+    <td class="td-button">
+      <button style="border:1px solid white; background-color: white;" title="Delete record" onclick="openForm()">
+        <img src="img/delete.png">
+      </button>
+    </td>
+  </tr>
+  <tr>
+    <td>12.02.2023</td>
+    <td>Ivanov Petro</td>
+    <td>Kiev region hospital</td>
+    <td>TO222</td>
+    <td>Del 3.2</td>
+    <td class="td-button">
+      <a title="Edit record" href="add-visit.html"><img src="img/edit.png"></a>
+    </td>
+    <td class="td-button">
+      <button style="border:1px solid white; background-color: white;" title="Delete record" onclick="openForm()">
+        <img src="img/delete.png">
+      </button>
+    </td>
+  </tr>
+  <tr>
+    <td>12.02.2023</td>
+    <td>Petroff Ivan</td>
+    <td>Summy oncology dispensary</td>
+    <td>TO333</td>
+    <td>Del 3.1</td>
+    <td class="td-button">
+      <a title="Edit record" href="add-visit.html"><img src="img/edit.png"></a>
+    </td>
+    <td class="td-button">
+      <button style="border:1px solid white; background-color: white;" title="Delete record" onclick="openForm()">
+        <img src="img/delete.png">
+      </button>
+    </td>
+  </tr>
+  <tr>
+    <td>28.01.2023</td>
+    <td>Palchuck Sergii</td>
+    <td>Lviv regional clinic</td>
+    <td>TO123</td>
+    <td>Del 3.12</td>
+    <td class="td-button">
+      <a title="Edit record" href="add-visit.html"><img src="img/edit.png"></a>
+    </td>
+    <td class="td-button">
+      <button style="border:1px solid white; background-color: white;" title="Delete record" onclick="openForm()">
+        <img src="img/delete.png">
+      </button>
+    </td>
+  </tr>
+
+</table>
+
+<!-- The form -->
+<div class="form-popup" id="myForm">
+  <form class="form-container">
+    <h3 style="text-align:center">Please, confirm <br/>the record removing from <br/>the datbase</h3>
+    <p>
+      <span><button type="button" class="btn cancel" onclick="closeForm()">
+Cancel</button></span>
+      <span><button type="submit" class="btn">OK</button></span>
+    </p>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+</body>
+</html>
