@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sites</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<p>
+	<span class="aktive folder">
+		<a href="sites.html">Sites</a>
+	</span>
+
+	<span class=" folder">
+		<a href="visits.html"> Maintenance Visits</a>
+	</span>
+
+	<span class="folder">
+		<a href="teams.html"> Maintenance Teams</a>
+	</span>
+
+	<span class="cancel-button">
+		<a style="color:white;" href="sites.html">Cansel</a>
+	</span>
+
+	<span class="add-button">
+		<a style="color:white;" href="sites.html">Save</a>
+	</span>
+</p>
+
+<form style="margin: 20px; font-size: 20px;">
+  <br>
+  <label for="site-name">Site name</label>
+  <input class="add-page-input" type="text" id="site-name" name="site-name" value="Zaporizhia antitumor centre"><br>
+
+  <label for="task-order">Task order</label>
+  <input class="add-page-input" type="text" id="task-order" name="task-order" value="456"><br>
+
+  <label for="warranty-start">Start of warranty period</label>
+  <input class="add-page-input" type="text" id="warranty-start" name="warranty-start" placeholder="02.02.2023" value="02.02.2023" onfocus="(this.type='date')"><br>
+
+  <label for="visits-number">Number of visits in Contract</label>
+  <input class="add-page-input" type="number" id="visits-number" name="visits-number" value="12">
+</form> 
+</body>

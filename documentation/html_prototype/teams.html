@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teams</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<p>
+	<span class="folder">
+		<a href="sites.html">Sites</a>
+	</span>
+
+	<span class=" folder">
+		<a href="visits.html"> Maintenance Visits</a>
+	</span>
+
+	<span class="aktive folder">
+		<a href="teams.html"> Maintenance Teams</a>
+	</span>
+
+	<span class="add-button">
+		<a style="color:white;" href="add-team.html">Add Team</a>
+	</span>
+
+</p>
+<br><br>
+<table style="border:1px solid white;width:90%">
+  <tr>
+    <th> Team # </th>
+    <th> Head of Team</th>
+    <th> Assistant </th>
+    <th> Car plate </th>
+     
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Palchuck Sergii</td>
+    <td>Denisov Andrii</td>
+    <td>AA1234AO</td>
+    <td class="td-button">
+      <a title="Edit record" href="add-team.html"><img src="img/edit.png"></a>
+    </td>
+    <td class="td-button">
+      <button style="border:1px solid white; background-color: white;" title="Delete record" onclick="openForm()">
+        <img src="img/delete.png">
+      </button>
+    </td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Ivanov Petro</td>
+    <td>John Doe</td>
+    <td>AA2345AO</td>
+    <td class="td-button">
+      <a title="Edit record" href="add-team.html"><img src="img/edit.png"></a>
+    </td>
+    <td class="td-button">
+      <button style="border:1px solid white; background-color: white;" title="Delete record" onclick="openForm()">
+        <img src="img/delete.png">
+      </button>
+    </td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Petroff Ivan</td>
+    <td>Adam Smith</td>
+    <td>AA4567AO</td>
+    <td class="td-button">
+      <a title="Edit record" href="add-team.html"><img src="img/edit.png"></a>
+    </td>
+    <td class="td-button">
+      <button style="border:1px solid white; background-color: white;" title="Delete record" onclick="openForm()">
+        <img src="img/delete.png">
+      </button>
+    </td>
+  </tr>
+
+</table>
+
+<!-- The form -->
+<div class="form-popup" id="myForm">
+  <form class="form-container">
+    <h3 style="text-align:center">Please, confirm <br/>the record removing from <br/>the datbase</h3>
+    <p>
+      <span><button type="button" class="btn cancel" onclick="closeForm()">
+Cancel</button></span>
+      <span><button type="submit" class="btn">OK</button></span>
+    </p>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+</body>
+</html>
