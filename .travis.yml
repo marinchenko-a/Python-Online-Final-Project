@@ -1,7 +1,13 @@
 language:  python
 python:
-  - "nightly"
+  - "3.9"
+
 install:
   - pip install -r requirements.txt
+
 script:
-  - pytest
+  - coverage run -m pytest tests
+  - pylint --errors-only maintenance-accounting-app
+
+after_script:
+  - coveralls
