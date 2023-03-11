@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='maintenance_accounting',
+    name='maintenance-accounting-app',
     version='1.0.0',
     packages=find_packages(),
     include_package_data=True,
