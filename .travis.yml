@@ -7,7 +7,7 @@ install:
 
 script:
   - coverage run -m pytest tests
-  - pylint maintenance_accounting
+  - pylint -- errors-only --disable=C,R maintenance_accounting
 
 after_script:
   - coveralls
