@@ -1,11 +1,11 @@
 include
-graft maintenance_accounting/static
-graft maintenance_accounting/templates
-graft maintenance_accounting/migrations
-graft maintenance_accounting/models
-graft maintenance_accounting/rest
-graft maintenance_accounting/service
-graft maintenance_accounting/sql
-graft maintenance_accounting/views
+graft maintenance_accounting_app/static
+graft maintenance_accounting_app/templates
+graft maintenance_accounting_app/migrations
+graft maintenance_accounting_app/models
+graft maintenance_accounting_app/rest
+graft maintenance_accounting_app/service
+graft maintenance_accounting_app/sql
+graft maintenance_accounting_app/views
 
 global-exclude *.pyc
